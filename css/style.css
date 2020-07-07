@@ -1,8 +1,52 @@
+.container{
+    margin-bottom:100px ;
+}
 .logo{
     width: 100px;
 }
 .bg-warning{
     color:red;
     padding: 2px;
+    
+}
+.carousel-indicators li{
+    display: inline-block;
+    width: 10px;
+    height: 7px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
     border-radius: 5px;
+    background-color: gray;
+}
+.carousel-indicators .active{
+    width: 30px;
+}
+.buy-button{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffff;
+    
+}
+span{
+    font-size: 20px;
+}
+a.hover{
+    color:red
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px  5px lightgray;
+}
+.card-footer{
+    border: none;
+}
+.categories{
+    margin-bottom: 20px;
+}
+.categories a{
+    text-decoration: none;
+    color: goldenrod;
 }
