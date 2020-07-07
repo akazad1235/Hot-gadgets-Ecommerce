@@ -43,14 +43,22 @@ a.hover{
 .card-footer{
     border: none;
 }
-.categories{
+.products{
     margin-bottom: 20px;
 }
-.categories a{
+.products a{
     text-decoration: none;
     color: goldenrod;
 }
 .cat-img-bg{
     box-shadow: 5px 10px 10px 5px #888888;
     margin: 5px;
+}
+.cat{
+    margin-bottom: 50px;
+    
+}
+.cat h1{
+    border-bottom: 2px solid goldenrod;
+    width: 150px;
 }
